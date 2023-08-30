@@ -7,8 +7,8 @@ plugin_category = "fun"
 
 
 @catub.cat_cmd(
-    pattern="stupid$",
-    command=("stupid", plugin_category),
+    pattern="زباله$",
+    command=("زباله", plugin_category),
     info={
         "header": "throwing brain in dustbin animation",
         "usage": "{tr}stupid",
@@ -18,7 +18,7 @@ async def _(event):
     "animation command"
     animation_interval = 1
     animation_ttl = range(14)
-    event = await edit_or_reply(event, "`Throw your brain in dustbin`")
+    event = await edit_or_reply(event, "`ارمي دماغك في سلة المهملات😡`")
     animation_chars = [
         "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠         <(^_^ <)🗑",
         "YOᑌᖇ ᗷᖇᗩIᑎ ➡️ 🧠\n\n🧠       <(^_^ <)  🗑",
@@ -41,8 +41,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="bombs$",
-    command=("bombs", plugin_category),
+    pattern="لغم$",
+    command=("لغم", plugin_category),
     info={
         "header": "bomb animation",
         "usage": "{tr}bombs",
@@ -50,7 +50,7 @@ async def _(event):
 )
 async def _(event):
     "animation command"
-    event = await edit_or_reply(event, "bombs")
+    event = await edit_or_reply(event, "لغم")
     await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
     await asyncio.sleep(0.5)
     await event.edit("💣💣💣💣 \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
@@ -74,8 +74,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="call$",
-    command=("call", plugin_category),
+    pattern="اتصال$",
+    command=("اتصال", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}call",
@@ -87,8 +87,8 @@ async def _(event):
     animation_ttl = range(18)
     event = await edit_or_reply(event, "Calling Pavel Durov (ceo of telegram)......")
     animation_chars = [
-        "`Connecting To Telegram Headquarters...`",
-        "`Call Connected.`",
+        "`الاتصال بمقر تليجرام •••`",
+        "`جاري الاتصال.`",
         "`Telegram: Hello This is Telegram HQ. Who is this?`",
         f"`Me: Yo this is` {ALIVE_NAME} ,`Please Connect me to my lil bro, Pavel Durov `",
         "`User Authorised.`",
@@ -112,8 +112,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="kill$",
-    command=("kill", plugin_category),
+    pattern="قتل$",
+    command=("قتل", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}kill",
@@ -136,7 +136,7 @@ async def _(event):
         "------------------>",
         "------>;(^。^)ノ",
         "(￣ー￣) DEAD",
-        "`Targeted user killed by Headshot 😈.😈.😈.😈.😈.😈.😈......`\n '#Sad_Reacts_Online'\n",
+        "`تم قتله برصاص بالراس 😈.😈.😈.😈.😈.😈.😈......`\n '#Sad_Reacts_Online'\n",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -144,8 +144,8 @@ async def _(event):
 
 
 @catub.cat_cmd(
-    pattern="wtf$",
-    command=("wtf", plugin_category),
+    pattern="وت$",
+    command=("وت", plugin_category),
     info={
         "header": "Fun animation try yourself to know more",
         "usage": "{tr}wtf",
